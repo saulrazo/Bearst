@@ -77,7 +77,7 @@ function About(){
                         <div data-scroll data-scroll-speed="8">
                             <h2>Misión</h2>
                             <br />
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit facilis, fugiat repellat laudantium eos sed tempora, numquam, quae molestias temporibus vitae natus praesentium? Placeat inventore delectus voluptates ipsam quos consectetur.</p>
+                            <p>Mikaaaaa ipsum dolor sit amet consectetur adipisicing elit. Impedit facilis, fugiat repellat laudantium eos sed tempora, numquam, quae molestias temporibus vitae natus praesentium? Placeat inventore delectus voluptates ipsam quos consectetur.</p>
                         </div>
                         <div data-scroll data-scroll-speed="9">
                             <h2>Visión</h2>
