@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap');
+.Cont1{
+    padding: 10vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    margin-top: -16vh;
+    background-color: #003459;
+}
+.Cont1 a{
+    margin-top: 5vh;
+    border-radius: 2rem;
+    padding: 1vw;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 80%;
+    color: white;
+}
+.Cont1 a:hover{
+    opacity: 100%;
+}
+.Cont1 a h2{
+    font-weight: bold;
+}
+.Basic{
+    color: #003459 !important;
+    background-color: white;
+}
+.Premium{
+    color: white;
+    background-color: #00a8e8;
+}
+
+
+.Cont2{
+    padding: 10vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: white;
+}
+.Q{
+    padding: 2vh;
+    width: 20vw;
+    border-radius: 1rem;
+    z-index: 1;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 2.5vw;
+    margin-top: -13vh;
+}
+.Cont3{
+    padding: 10vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #00a8e8;
+}
+.Cont4{
+    padding: 10vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    background-color: #003459;
+}
+.list{
+    text-align: left;
+    list-style: none;
+    font-size: larger;
+}
+.list li{
+    margin-top: 2vh;
+}
+.arrow{
+    color: #00a8e8;
+    position: absolute;
+    margin-top: -3.5vh;
+    margin-left: -2vw;
+}
+.MainBasicList{
+    border: 3.5px solid #003459;
+    padding: 1vw;
+}
+.MainBasicList::before{
+    content: "";
+    position: absolute;
+    border: 3.5px solid #003459;
+    padding: 1vw;
+    width: 78vw;
+    height: 32vh;
+    left: 9%;
+    margin-top: -3.5vh;
+}
+.BasicList{
+    color: black;
+    text-align: left;
+    list-style: none;
+}
+.BasicList ul{
+    list-style: none;
+}
+.BasicList ul li{
+    color: #00a8e8;
+}
+.BasicList li{
+    color: #003459;
+    font-size: larger;
+}
+.BasicList li::before {
+    content: "•";
+    color: #577eff;
+    display: inline-block;
+    font-size: xx-large;
+    width: 1em;
+    margin-left: -1em
+}
+.MainPremiumList{
+    border: 3.5px solid white;
+    padding: 1vw;
+}
+.PremiumList{
+    /* color: black; */
+    text-align: left;
+    list-style: none;
+    font-size: larger;
+}
+.PremiumList ul{
+    list-style: none;
+}
+.PremiumList ul li{
+    color: #577eff;
+}
+.PremiumList ul li::before {
+    background: none;
+}
+.PremiumList li::before {
+    content: '';
+    padding: 1vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    background-image: url('../../assets/img/star.png');
+}
+.flecha1{
+    fill: rgb(0, 0, 0);
+    transform: rotate(75deg);
+    position: absolute;
+    width: 12vw;
+    margin-top: -15vh;
+    left: 30vw;
+}
+.flecha2{
+    fill: rgb(36, 50, 96);
+}
+.flecha3{
+    fill: inherit;
+}
+.flecha4{
+    fill: inherit
+}
+
+.BasicTitle{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vw;
+}
+.PremiumTitle{
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vw;
+}
+.Bas{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5vw;
+}
+.Prem{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5vw;
+}
+@media (max-width:800px) {
+    .MainBasicList::before{
+        display: none;
+    }
+    .Q{
+        font-size: 4vw;
+        margin-top: -9vh;
+        width: 68vw;
+    }
+    .moreInfoBasic{
+        display: none;
+    }
+    .moreInfoPremium{
+        display: none;
+    }
+    .Basic{
+        padding: 2vh !important;
+    }
+    .Premium{
+        padding: 2vh !important;
+    }
+    .BasBr{
+        display: none;
+    }
+    .PremBr{
+        display: none   ;
+    }
+}
+@media (max-width:400px) {
+    .Q{
+        margin-top: -30vh;
+    }
+}
+@media (max-height:800px) {
+    .BasicList{
+        font-size: small ;
+    }
+    .PremiumList{
+        font-size: small;
+    }
+    .Cont4{
+        font-size: small;
+    }
+    
+}

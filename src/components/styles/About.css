@@ -1,0 +1,166 @@
+.grid2{
+    margin-top: 20vh;
+    background-color: #007ea7;
+    display: flex;
+    justify-content: space-evenly;
+    transform: rotate(5deg);
+    width: 102vw;
+    margin-left: -1vw;
+    margin-bottom: 10vh;
+
+}
+.grid3{
+    margin-top: -9vh;
+    background-color: #00ab84;
+    display: flex;
+    justify-content: space-evenly;
+    transform: rotate(5deg);
+    width: 102vw;
+    margin-left: -1vw;
+    margin-bottom: 10vh;
+}
+
+
+.ElG{
+    margin: 1vw;
+}
+.ElG img{
+    width: 40px;
+}
+.AboutTitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vw;
+}
+.MainSec{
+    padding: 5vw;
+}
+.MainSec p{
+    text-align: justify;
+}
+.GridSec{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    gap: 1vw;
+}
+.GridSec div{
+    background-color: #003459;
+    border-radius: 0.5rem;
+    padding: 2vw;
+}
+.Avatars{
+    display: flex;
+    margin-bottom: 20vh;
+    margin-top: 10vh;
+}
+.Avatar{
+    width: 20vw;
+    background-color: rgba(255, 255, 255, 0.201);
+    border-radius: 50%;
+    border: 2px solid #aceaff;
+
+}
+.Avatar:hover{
+    animation-name: Avatar;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+    transition: 10s;
+}
+@keyframes Avatar {
+    25%{
+        border: 12px solid #3bacd1;
+        
+    }
+    50%{
+        border: 10px solid #007ea7;
+        
+    }
+    75%{
+        border: 8px solid #007ea7;
+        
+    }
+    100%{
+        border: 2px solid #3bacd1;
+        
+    }
+    
+}
+.AvatarSaul{
+    display: flex;
+    margin-left: 1vw;
+}
+.AvatarLuis{
+    display: flex;
+    margin-left: 1vw;
+}
+
+
+.AvatarSaul p{
+    text-align: justify;
+    margin: auto;
+    margin-left: 1vw;
+}
+.AvatarLuis p{
+    text-align: justify;
+    margin: auto;
+    margin-left: 1vw;
+}
+
+.AvInfo{
+    display: flex;
+    flex-direction: column;
+}
+.AvInfo strong{
+    text-align: center;
+}
+.AvatarName{
+    margin-top: 10px;
+    font-size: 2vw;
+}
+.FundaTitle{
+    text-align: center;
+    font-weight: bold;
+}
+.AboutFooter a{
+    color: white;
+    text-decoration: none;
+}
+.AboutFooter a:hover{
+    color: rgb(209, 209, 209);
+    text-decoration: line-through;
+}
+.AboutFooter ul{
+    list-style: none;
+}
+@media (max-width:800px) {
+    .GridSec{
+        grid-template-columns: auto;
+    }
+    .Avatars{
+        flex-direction: column;
+    }
+    .AvatarSaul{
+        flex-direction: column;
+    }
+    .AvatarLuis{
+        flex-direction: column;
+    }
+    .Avatar{
+        margin: auto;
+        width: 40vw;
+    }
+    .AboutTitle {
+        font-size: 5vh;
+    }
+    .AvatarName{
+        font-size: 6vw;
+    }
+    .AboutFooter{
+        grid-template-columns: auto auto !important;
+        gap: 1vw;
+        font-size: small;
+        margin-top: -37vh !important;
+    }
+}

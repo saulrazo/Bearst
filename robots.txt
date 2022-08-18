@@ -1,0 +1,5 @@
+User-agent:*
+Allow:/Home
+Allow:/Portafolio
+Allow:/Prices
+Allow:/Social

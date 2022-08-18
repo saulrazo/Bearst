@@ -1,0 +1,41 @@
+.Social{
+    padding: 50px;
+}
+.SocialIcon{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 1px solid  rgb(0, 136, 255);
+    border-left: 1px solid  rgb(0, 136, 255);
+    box-shadow: 1px 1px 2.5px #fff;
+    margin-top: 50px;
+
+}
+ .Social ul{
+    padding: 0px;
+} 
+.Social ul li{
+    text-align: center;
+    border-radius: 5rem;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid rgb(0, 92, 128);
+    cursor: pointer;
+    font-size: 20px;
+}
+.Social ul li:hover{
+    border: 2px solid rgb(34, 150, 170);
+}
+.Social ul li a{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    width: 100%;
+}
+.SocialSN ul li a{
+    color: rgb(178, 178, 178);
+}
