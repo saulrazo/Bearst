@@ -29,7 +29,7 @@ function Home(){
 
 
         <div className="SE" id="ser">
-        <h2>Servicios</h2>
+        <h2>Servicio</h2>
         <div className="services">
           <div id="SD" style={{
           cursor:"pointer"
